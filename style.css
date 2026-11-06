@@ -1,0 +1,31 @@
+/* Mobile First: estilos base valem para celular; media queries ampliam para telas maiores */
+html { scroll-behavior: smooth; }
+body { background: #0d1b2a; color: #e0e6ed; }
+.navbar { background: #0a1522 !important; }
+.navbar-brand { color: #4dd0e1; cursor: pointer; }
+
+.secao { padding: 5rem 0 2.5rem; }
+.secao-alt { background: #112337; }
+h1, h2, h3 { color: #ffffff; }
+
+.card { background: #16304a; border: 1px solid #24476b; }
+.card-footer { background: transparent; border-top: 1px solid #24476b; }
+
+.badge-skill { background: #1f4a6e; color: #e0e6ed; font-weight: 500; padding: .5em .8em; border-radius: 6px; font-size: .9rem; }
+
+/* Caixas reservadas para foto e screenshots (a imagem cobre o texto quando existe) */
+.foto-box, .print-box {
+  position: relative; display: flex; align-items: center; justify-content: center;
+  background: #1c3a57; border: 2px dashed #4dd0e1; color: #9fb3c8; overflow: hidden;
+}
+.foto-box { width: 200px; height: 200px; border-radius: 50%; }
+.print-box { width: 100%; aspect-ratio: 16 / 9; border-radius: 6px 6px 0 0; }
+.foto-box img, .print-box img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* Mensagens no painel */
+.msg-cell { max-width: 260px; word-break: break-word; }
+
+@media (min-width: 768px) {
+  .secao { padding: 6rem 0 3rem; }
+  .foto-box { width: 240px; height: 240px; }
+}
