@@ -1,7 +1,7 @@
 // ===== Configuração =====
 const CHAVE = 'mensagens';
 // TROQUE pelo e-mail que vai receber as mensagens (envio automático via FormSubmit)
-const EMAIL_DESTINO = 'seuemail@exemplo.com';
+const EMAIL_DESTINO = 'borba.cris@outlook.com';
 
 // ===== Skills (renderizadas em badges) =====
 const hardSkills = ['Python', 'Cybersecurity', 'Java', 'SQL', 'Redes e protocolos', 'Linux', 'Pentesting', 'Inglês', 'Manutenção de hardware', 'I.A', 'HTML', 'CSS'];
